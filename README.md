@@ -1,6 +1,6 @@
 # Campfire 2026 · Clever CS IDM Hackathon
 
-A simple hackathon hub for three teams of three. Each team builds an interactive Clever IDM training a CS agent can complete asynchronously in 30 minutes or less.
+A simple hackathon hub for three teams, each with a Subject Matter Expert, Builder, and Learning Designer(s). Each team builds an interactive Clever IDM training a CS agent can complete asynchronously in 30 minutes or less.
 
 ## Run locally
 
@@ -25,7 +25,7 @@ npm run typecheck
 - **Colors, layout, and responsive styles:** `app/globals.css`
 - **Browser title and description:** `app/layout.tsx`
 
-SMEs are Adam (Team 01), Nikkole (Team 02), and Keith (Team 03). Builders, Learning Designers, and topics are TBD. No event dates beyond the Builder checkpoint are assumed. There is no database, login, or shared editing interface; update the source to publish new information.
+Team 01: Adam (SME), Jess (Builder), and Joan (Learning Designer). Team 02: Nikkole (SME), Katy (Builder), and Kayla (Learning Designer). Team 03: Keith (SME), Jen (Builder), and Arraine and Christina (Learning Designers). Topics are TBD. There is no database, login, or shared editing interface; update the source to publish new information.
 
 ## Resources
 

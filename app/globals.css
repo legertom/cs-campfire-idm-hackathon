@@ -640,6 +640,7 @@ dl {
 dl > div {
   display: flex;
   justify-content: space-between;
+  gap: 12px;
   padding-top: 12px;
   font-size: 11px;
 }
@@ -649,6 +650,7 @@ dt {
 dd {
   margin: 0;
   font-weight: 500;
+  text-align: right;
 }
 .closing {
   padding: 59px 0;

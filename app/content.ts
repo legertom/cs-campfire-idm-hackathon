@@ -10,22 +10,22 @@ export const teams = [
     name: "Team 01",
     topic: "Topic TBD",
     sme: "Adam",
-    builder: "TBD",
-    designer: "TBD",
+    builder: "Jess",
+    designers: ["Joan"],
   },
   {
     name: "Team 02",
     topic: "Topic TBD",
     sme: "Nikkole",
-    builder: "TBD",
-    designer: "TBD",
+    builder: "Katy",
+    designers: ["Kayla"],
   },
   {
     name: "Team 03",
     topic: "Topic TBD",
     sme: "Keith",
-    builder: "TBD",
-    designer: "TBD",
+    builder: "Jen",
+    designers: ["Arraine", "Christina"],
   },
 ];
 

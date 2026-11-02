@@ -98,7 +98,7 @@ export default function Home() {
         <div className="stats" aria-label="Hackathon at a glance">
           <div>
             <strong>03</strong>
-            <span>teams of three</span>
+            <span>hackathon teams</span>
           </div>
           <div>
             <strong>01</strong>
@@ -250,7 +250,7 @@ export default function Home() {
               <li>
                 <h4>Consult your team</h4>
                 <p>
-                  Work with your Builder and Learning Designer to choose the
+                  Work with your Builder and Learning Designer(s) to choose the
                   focus. Agree on what the learner should be able to do after
                   the training.
                 </p>
@@ -331,9 +331,9 @@ export default function Home() {
               <h2>Meet your fellow builders.</h2>
             </div>
             <p>
-              SMEs are set. More teammates and topics are coming.
+              Your teams are set. Topics are coming.
               <br />
-              For now, here's the shape of each team.
+              Find your crew and choose your focus together.
             </p>
           </div>
           <div className="team-grid">
@@ -355,8 +355,12 @@ export default function Home() {
                     <dd>{team.builder}</dd>
                   </div>
                   <div>
-                    <dt>Learning Designer</dt>
-                    <dd>{team.designer}</dd>
+                    <dt>
+                      {team.designers.length > 1
+                        ? "Learning Designers"
+                        : "Learning Designer"}
+                    </dt>
+                    <dd>{team.designers.join(" & ")}</dd>
                   </div>
                 </dl>
               </article>
