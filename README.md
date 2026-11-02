@@ -36,4 +36,10 @@ The November 6, 5pm Builder checkpoint and approximate setup duration come from 
 
 ## Hosting later
 
-This is a standard Next.js App Router app ready to import from GitHub into Vercel. No environment variables are required. This project has **not** been deployed or connected to Vercel.
+GitHub Pages publishing is configured in `.github/workflows/pages.yml`. Once Pages is enabled with GitHub Actions as its source, pushes to `main` build and publish the site automatically.
+
+The Pages build sets `GITHUB_PAGES=true` to export static files to `out/` with the repository's URL prefix. Preview development locally with `npm run dev` as usual; the prefix applies only to Pages builds.
+
+Expected Pages URL: https://legertom.github.io/cs-campfire-idm-hackathon/
+
+This is also a standard Next.js App Router app ready to import from GitHub into Vercel. No environment variables are required for Vercel. This project has **not** been deployed or connected to Vercel.
