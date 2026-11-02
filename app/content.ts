@@ -15,7 +15,7 @@ export const teams = [
   },
   {
     name: "Team 02",
-    topic: "Topic TBD",
+    topic: "Hall Monitor Tools",
     sme: "Nikkole",
     builder: "Katy",
     designers: ["Kayla"],
