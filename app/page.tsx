@@ -209,6 +209,14 @@ export default function Home() {
               you haven't already.
             </p>
             <p className="sme-intro">
+              <strong>Get your workspace ready:</strong> download the Claude
+              desktop app, or use VS Code with the Claude Code extension.
+              <strong>
+                {" "}
+                Claude.ai in the browser is not allowed for the hackathon.
+              </strong>
+            </p>
+            <p className="sme-intro">
               Everyone is responsible for using Claude{" "}
               <strong>effectively and efficiently</strong> while working toward
               our shared goal: building something significant that helps CS
