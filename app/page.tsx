@@ -250,7 +250,7 @@ export default function Home() {
               <h2>Meet your fellow builders.</h2>
             </div>
             <p>
-              Names and topics are coming.
+              SMEs are set. More teammates and topics are coming.
               <br />
               For now, here's the shape of each team.
             </p>

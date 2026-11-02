@@ -25,7 +25,7 @@ npm run typecheck
 - **Colors, layout, and responsive styles:** `app/globals.css`
 - **Browser title and description:** `app/layout.tsx`
 
-Names and topics are intentionally TBD. No event dates beyond the Builder checkpoint are assumed. There is no database, login, or shared editing interface; update the source to publish new information.
+SMEs are Adam (Team 01), Nikkole (Team 02), and Keith (Team 03). Builders, Learning Designers, and topics are TBD. No event dates beyond the Builder checkpoint are assumed. There is no database, login, or shared editing interface; update the source to publish new information.
 
 ## Resources
 
