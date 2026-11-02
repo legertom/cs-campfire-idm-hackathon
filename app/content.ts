@@ -36,9 +36,9 @@ export const roles = [
     description:
       "Choose a useful Clever IDM topic, define what an agent needs to know, and make sure the training gets the details right.",
     tasks: [
-      "Scope one practical IDM skill",
-      "Supply examples and review accuracy",
-      "Help the team answer the tricky questions",
+      "Pick a focused IDM topic with your team",
+      "Research Guru, the past year of cases, and your own expertise",
+      "Tell Tom & Katie before 5pm on November 6",
     ],
   },
   {

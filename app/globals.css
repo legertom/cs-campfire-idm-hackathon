@@ -446,6 +446,61 @@ h3 {
   left: 0;
   color: #859373;
 }
+.sme-brief {
+  margin-bottom: 24px;
+  padding: clamp(22px, 4vw, 36px);
+  background: #eee8dc;
+  border: 1px solid #d6cebc;
+  border-radius: 7px;
+}
+.sme-brief-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+.sme-brief .pill {
+  border-color: #beb9a9;
+}
+.sme-deadline {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 700;
+  color: #944421;
+}
+.sme-brief h3 {
+  font-size: 30px;
+  line-height: 1.3;
+}
+.sme-intro {
+  font-size: 17px;
+  max-width: 900px;
+  margin: 20px 0 28px;
+}
+.sme-steps {
+  margin: 0;
+  padding-left: 24px;
+  border-top: 1px solid #cec7b6;
+}
+.sme-steps li {
+  padding: 20px 0 0 8px;
+  font-size: 16px;
+}
+.sme-steps li::marker {
+  font-weight: 700;
+  color: #944421;
+}
+.sme-steps h4 {
+  margin: 0 0 6px;
+  font-size: 18px;
+}
+.sme-steps p {
+  margin: 0;
+  max-width: 900px;
+  color: #4c594e;
+}
 .resource-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;

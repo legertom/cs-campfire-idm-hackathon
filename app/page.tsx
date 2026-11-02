@@ -192,6 +192,48 @@ export default function Home() {
               all in one place.
             </p>
           </div>
+          <article className="sme-brief" aria-labelledby="sme-brief-title">
+            <div className="sme-brief-heading">
+              <span className="pill">FOR SUBJECT MATTER EXPERTS</span>
+              <p className="sme-deadline">Before 5pm · Friday, November 6</p>
+            </div>
+            <h3 id="sme-brief-title">
+              Pick the topic. Set your team up for impact.
+            </h3>
+            <p className="sme-intro">
+              Adam, Nikkole, and Keith: choose a Clever IDM topic with your team
+              and tell Tom &amp; Katie{" "}
+              <strong>before 5pm on November 6.</strong> Aim for a topic narrow
+              enough that an agent can make significant progress in 30 minutes,
+              but broad enough to make an impact.
+            </p>
+            <ol className="sme-steps">
+              <li>
+                <h4>Consult your team</h4>
+                <p>
+                  Work with your Builder and Learning Designer to choose the
+                  focus. Agree on what the learner should be able to do after
+                  the training.
+                </p>
+              </li>
+              <li>
+                <h4>Research where the need is</h4>
+                <p>
+                  Consult Guru, data from existing Salesforce cases over the
+                  past year, and your own expert-level knowledge. Connect Claude
+                  to Salesforce and Sigma and ask Claude to help research
+                  patterns, recurring questions, and opportunities for training.
+                </p>
+              </li>
+              <li>
+                <h4>Choose together, then tell Tom &amp; Katie</h4>
+                <p>
+                  Use that research and your team's judgment to pick one topic.
+                  Send Tom &amp; Katie your team's choice before the deadline.
+                </p>
+              </li>
+            </ol>
+          </article>
           <div className="resource-grid">
             <a
               href={resources.builder}
