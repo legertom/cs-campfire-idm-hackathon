@@ -1,5 +1,6 @@
 // Edit this file as plans, team assignments, and project links take shape.
 export const resources = {
+  everyone: "https://make-it-count-clever.vercel.app",
   builder: "https://github.com/legertom/golden-path-setup",
   designer: "https://fifteen-pieces.vercel.app",
 };

@@ -29,6 +29,7 @@ SMEs are Adam (Team 01), Nikkole (Team 02), and Keith (Team 03). Builders, Learn
 
 ## Resources
 
+- [Everyone: Make It Count](https://make-it-count-clever.vercel.app) — complete before the hackathon if you haven't already. Every role shares responsibility for using Claude effectively and efficiently to build something significant.
 - [Builder Golden Path](https://github.com/legertom/golden-path-setup)
 - [Learning Designer ramp-up: Fifteen Pieces](https://fifteen-pieces.vercel.app)
 

@@ -192,6 +192,37 @@ export default function Home() {
               all in one place.
             </p>
           </div>
+          <article
+            className="sme-brief everyone-prep"
+            aria-labelledby="everyone-prep-title"
+          >
+            <div className="sme-brief-heading">
+              <span className="pill">FOR EVERYONE</span>
+              <p className="everyone-deadline">Complete before the hackathon</p>
+            </div>
+            <h3 id="everyone-prep-title">
+              Make It Count. Then put it into practice.
+            </h3>
+            <p className="sme-intro">
+              Subject Matter Experts, Builders, and Learning Designers: complete
+              the <strong>Make It Count</strong> course before the hackathon if
+              you haven't already.
+            </p>
+            <p className="sme-intro">
+              Everyone is responsible for using Claude{" "}
+              <strong>effectively and efficiently</strong> while working toward
+              our shared goal: building something significant that helps CS
+              agents learn a useful Clever IDM skill.
+            </p>
+            <a
+              className="button primary"
+              href={resources.everyone}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Open Make It Count <Arrow />
+            </a>
+          </article>
           <article className="sme-brief" aria-labelledby="sme-brief-title">
             <div className="sme-brief-heading">
               <span className="pill">FOR SUBJECT MATTER EXPERTS</span>

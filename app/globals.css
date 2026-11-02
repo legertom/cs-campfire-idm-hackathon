@@ -470,6 +470,15 @@ h3 {
   font-weight: 700;
   color: #944421;
 }
+.everyone-prep {
+  background: #ebeee2;
+  border-color: #cbd4bf;
+}
+.everyone-deadline {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 700;
+}
 .sme-brief h3 {
   font-size: 30px;
   line-height: 1.3;
