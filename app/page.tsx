@@ -54,7 +54,7 @@ export default function Home() {
             </p>
             <h1 id="hero-title">
               A little spark.
-              <br />A smarter <em>CS team.</em>
+              <br />A stronger <em>CS team.</em>
             </h1>
             <p className="hero-description">
               Bring your Clever IDM know-how. Build something that helps the
