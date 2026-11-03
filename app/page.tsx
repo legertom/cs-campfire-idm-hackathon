@@ -102,7 +102,7 @@ export default function Home() {
           </div>
           <div>
             <strong>01</strong>
-            <span>training per team</span>
+            <span>training experience per team</span>
           </div>
           <div>
             <strong>
@@ -130,8 +130,8 @@ export default function Home() {
           </div>
           <div className="challenge-copy">
             <p className="lead">
-              Build one async training on a topic related to Clever IDM that a
-              CS agent can learn in 30 minutes or less.
+              Build one asynchronous training experience on a Clever IDM topic
+              that a CS agent can complete in 30 minutes or less.
             </p>
             <p>
               Each team will create an interactive learning experience as a
@@ -210,7 +210,7 @@ export default function Home() {
             </p>
             <p className="sme-intro">
               <strong>Get your workspace ready:</strong> download the Claude
-              desktop app, or use VS Code with the Claude Code extension.
+              desktop app or use VS Code with the Claude Code extension.
               <strong>
                 {" "}
                 Claude.ai in the browser is not allowed for the hackathon.
@@ -234,15 +234,15 @@ export default function Home() {
           <article className="sme-brief" aria-labelledby="sme-brief-title">
             <div className="sme-brief-heading">
               <span className="pill">FOR SUBJECT MATTER EXPERTS</span>
-              <p className="sme-deadline">Before 5pm · Friday, November 6</p>
+              <p className="sme-deadline">Before 5 p.m. · Friday, November 6</p>
             </div>
             <h3 id="sme-brief-title">
               Pick the topic. Set your team up for impact.
             </h3>
             <p className="sme-intro">
               Adam, Nikkole, and Keith: choose a Clever IDM topic with your team
-              and tell Tom &amp; Katie{" "}
-              <strong>before 5pm on November 6.</strong> Aim for a topic narrow
+              and tell Tom and Katie{" "}
+              <strong>before 5 p.m. on November 6.</strong> Aim for a topic narrow
               enough that an agent can make significant progress in 30 minutes,
               but broad enough to make an impact.
             </p>
@@ -250,25 +250,25 @@ export default function Home() {
               <li>
                 <h4>Consult your team</h4>
                 <p>
-                  Work with your Builder and Learning Designer(s) to choose the
-                  focus. Agree on what the learner should be able to do after
+                  Work with your teammates in the Builder and Learning Designer
+                  roles to choose a focus. Agree on what the learner should be able to do after
                   the training.
                 </p>
               </li>
               <li>
                 <h4>Research where the need is</h4>
                 <p>
-                  Consult Guru, data from existing Salesforce cases over the
-                  past year, and your own expert-level knowledge. Connect Claude
+                  Consult Guru, review Salesforce cases from the past year,
+                  and draw on your own expertise. Connect Claude
                   to Salesforce and Sigma and ask Claude to help research
                   patterns, recurring questions, and opportunities for training.
                 </p>
               </li>
               <li>
-                <h4>Choose together, then tell Tom &amp; Katie</h4>
+                <h4>Choose together, then tell Tom and Katie</h4>
                 <p>
                   Use that research and your team's judgment to pick one topic.
-                  Send Tom &amp; Katie your team's choice before the deadline.
+                  Send Tom and Katie your team's choice before the deadline.
                 </p>
               </li>
             </ol>
@@ -318,8 +318,8 @@ export default function Home() {
           <div className="prep-note">
             <span className="note-label">BUILDER CHECKPOINT</span>
             <p>
-              Finish setup and send your live team page to Tom &amp; Katie by{" "}
-              <b>5pm on Friday, November 6.</b> Set aside about an hour; the
+              Finish setup and send your live team page to Tom and Katie by{" "}
+              <b>5 p.m. on Friday, November 6.</b> Set aside about an hour; the
               Golden Path walks you through it.
             </p>
           </div>

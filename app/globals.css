@@ -20,7 +20,7 @@ body {
   background: var(--paper);
   color: var(--ink);
   font-family: "DM Sans", Arial, sans-serif;
-  font-size: 15px;
+  font-size: 1rem;
   line-height: 1.65;
 }
 a {
@@ -59,7 +59,7 @@ footer {
   letter-spacing: -1px;
 }
 .brand-year {
-  color: #7a8074;
+  color: var(--muted);
   font-weight: 500;
 }
 .flame {
@@ -77,7 +77,7 @@ footer {
 nav {
   display: flex;
   gap: 32px;
-  font-size: 13px;
+  font-size: 0.875rem;
   font-weight: 600;
 }
 nav a:hover,
@@ -90,7 +90,7 @@ footer a:hover {
   border-radius: 6px;
   padding: 9px 17px;
   font-weight: 600;
-  font-size: 13px;
+  font-size: 0.875rem;
   display: flex;
   gap: 22px;
 }
@@ -102,9 +102,9 @@ footer a:hover {
   padding: 76px 0 66px;
 }
 .eyebrow {
-  font-size: 10px;
+  font-size: 0.875rem;
   font-weight: 700;
-  letter-spacing: 1.9px;
+  letter-spacing: 1.2px;
   margin: 0 0 23px;
   display: flex;
   align-items: center;
@@ -164,7 +164,7 @@ h3 {
   align-items: center;
   gap: 30px;
   border-radius: 5px;
-  font-size: 13px;
+  font-size: 0.875rem;
   font-weight: 600;
   transition: background 0.2s;
 }
@@ -176,13 +176,13 @@ h3 {
   background: #285b4c;
 }
 .text-link {
-  font-size: 12px;
+  font-size: 0.875rem;
   font-weight: 600;
   display: flex;
   gap: 12px;
 }
 .hero-note {
-  font-size: 11px;
+  font-size: 0.875rem;
   color: var(--muted);
   margin-top: 24px;
 }
@@ -236,8 +236,8 @@ h3 {
   transform: rotate(-19deg);
 }
 .scene-label {
-  font-size: 8px;
-  letter-spacing: 1.6px;
+  font-size: 0.875rem;
+  letter-spacing: 0.6px;
   font-weight: 600;
   position: absolute;
   background: var(--paper);
@@ -280,10 +280,13 @@ h3 {
 }
 .scene-caption {
   position: absolute;
-  bottom: 20px;
-  font-size: 7px;
-  letter-spacing: 1.6px;
-  color: #62725a;
+  bottom: 12px;
+  width: calc(100% - 32px);
+  text-align: center;
+  line-height: 1.4;
+  font-size: 0.875rem;
+  letter-spacing: 0.6px;
+  color: #58664f;
 }
 .stats {
   display: grid;
@@ -309,7 +312,7 @@ h3 {
   font-weight: 600;
 }
 .stats span:not(.tiny-flame) {
-  font-size: 11px;
+  font-size: 0.875rem;
   color: var(--muted);
 }
 .stats strong .unit {
@@ -327,7 +330,7 @@ h3 {
   color: var(--orange);
 }
 .stats-mission p {
-  font-size: 12px;
+  font-size: 0.875rem;
   line-height: 1.8;
   margin: 0;
 }
@@ -348,7 +351,7 @@ h3 {
 .challenge-copy p {
   color: var(--muted);
   margin-top: 0;
-  font-size: 14px;
+  font-size: 1rem;
 }
 .challenge-copy .lead {
   font-size: 20px;
@@ -368,7 +371,7 @@ h3 {
 }
 .outcome p {
   margin: 0 !important;
-  font-size: 12px !important;
+  font-size: 1rem !important;
 }
 .outcome b {
   color: var(--ink);
@@ -385,7 +388,7 @@ h3 {
 }
 .section-heading > p {
   color: var(--muted);
-  font-size: 12px;
+  font-size: 1rem;
   margin: 0;
 }
 .role-grid,
@@ -403,7 +406,7 @@ h3 {
 .role-number {
   display: flex;
   justify-content: space-between;
-  font-size: 11px;
+  font-size: 0.875rem;
   color: var(--muted);
   margin-bottom: 28px;
 }
@@ -417,12 +420,12 @@ h3 {
   letter-spacing: -0.7px;
 }
 .role-card p {
-  font-size: 12px;
+  font-size: 1rem;
   color: var(--muted);
-  line-height: 1.8;
+  line-height: 1.7;
 }
 .role-card .role-tagline {
-  font-size: 14px;
+  font-size: 1rem;
   color: #9b4c27;
   font-weight: 600;
   margin: 9px 0 18px;
@@ -434,7 +437,7 @@ h3 {
   margin: 20px 0 0;
 }
 .role-card li {
-  font-size: 11px;
+  font-size: 1rem;
   line-height: 1.7;
   margin: 8px 0;
   padding-left: 16px;
@@ -563,16 +566,15 @@ h3 {
   font-size: 30px;
 }
 .resource-card p {
-  font-size: 13px;
+  font-size: 1rem;
   line-height: 1.8;
   max-width: 440px;
-  opacity: 0.8;
   margin: 16px 0 27px;
 }
 .resource-foot {
   display: flex;
   justify-content: space-between;
-  font-size: 12px;
+  font-size: 0.875rem;
   font-weight: 600;
   margin-top: auto;
   border-top: 1px solid #647b6c;
@@ -591,7 +593,7 @@ h3 {
   border-radius: 5px;
 }
 .note-label {
-  font-size: 8px;
+  font-size: 0.875rem;
   letter-spacing: 1px;
   font-weight: 700;
   white-space: nowrap;
@@ -599,7 +601,7 @@ h3 {
   color: #94603b;
 }
 .prep-note p {
-  font-size: 12px;
+  font-size: 1rem;
   color: var(--muted);
   margin: 0;
 }
@@ -616,19 +618,19 @@ h3 {
 }
 .team-index {
   font-family: Georgia, serif;
-  color: #9ca68b;
+  color: #626f55;
   font-size: 31px;
   font-style: italic;
 }
 .team-status {
-  font-size: 9px;
+  font-size: 0.875rem;
   background: #eaf0e2;
   border-radius: 30px;
   padding: 4px 10px;
   color: #596d45;
 }
 .team-topic {
-  font-size: 12px;
+  font-size: 1rem;
   color: var(--muted);
   margin: 8px 0 25px;
 }
@@ -639,18 +641,20 @@ dl {
 }
 dl > div {
   display: flex;
-  justify-content: space-between;
-  gap: 12px;
-  padding-top: 12px;
-  font-size: 11px;
+  flex-direction: column;
+  gap: 4px;
+  padding-top: 20px;
+  font-size: 1rem;
 }
 dt {
   color: var(--muted);
 }
 dd {
   margin: 0;
-  font-weight: 500;
-  text-align: right;
+  font-size: 1.375rem;
+  line-height: 1.4;
+  font-weight: 650;
+  overflow-wrap: anywhere;
 }
 .closing {
   padding: 59px 0;
@@ -668,7 +672,7 @@ dd {
   margin: 0;
 }
 .closing > span {
-  font-size: 8px;
+  font-size: 0.875rem;
   letter-spacing: 1.7px;
   color: var(--muted);
 }
@@ -680,7 +684,7 @@ footer {
   border-top: 1px solid var(--line);
 }
 footer .brand {
-  font-size: 14px;
+  font-size: 1rem;
   letter-spacing: -0.5px;
 }
 footer .flame.small {
@@ -689,7 +693,7 @@ footer .flame.small {
 }
 footer p,
 footer > a:last-child {
-  font-size: 10px;
+  font-size: 0.875rem;
   color: var(--muted);
 }
 .skip-link {
@@ -732,6 +736,10 @@ footer > a:last-child {
   .hero {
     gap: 25px;
   }
+  .role-grid,
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
   .hero-actions {
     align-items: flex-start;
     flex-direction: column;
@@ -756,7 +764,7 @@ footer > a:last-child {
     gap: 11px;
   }
   .stats-mission p {
-    font-size: 10px;
+    font-size: 0.875rem;
   }
   .challenge {
     gap: 35px;
@@ -770,18 +778,22 @@ footer > a:last-child {
     margin-right: 22px;
   }
   .header {
-    height: 80px;
+    min-height: 80px;
+    height: auto;
+    padding: 16px 0;
+    gap: 12px;
   }
   .brand {
-    font-size: 20px;
+    gap: 6px;
+    font-size: 18px;
   }
   nav {
     display: none;
   }
   .nav-cta {
-    font-size: 11px;
+    font-size: 0.875rem;
     padding: 8px 11px;
-    gap: 14px;
+    gap: 8px;
   }
   .hero {
     grid-template-columns: 1fr;
@@ -789,7 +801,7 @@ footer > a:last-child {
     gap: 30px;
   }
   .eyebrow {
-    font-size: 8px;
+    font-size: 0.875rem;
     letter-spacing: 1.3px;
   }
   h1 {
@@ -843,24 +855,29 @@ footer > a:last-child {
     left: 30px;
   }
   .scene-caption {
-    font-size: 6px;
+    font-size: 0.875rem;
   }
   .stats {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     padding: 20px 0;
     row-gap: 19px;
   }
   .stats > div {
     padding-left: 15px;
   }
-  .stats > div:nth-child(3) {
+  .stats > div:nth-child(2) {
     border: 0;
+  }
+  .stats > div:nth-child(3) {
+    grid-column: 1 / -1;
+    border: 0;
+    padding-left: 0;
   }
   .stats strong {
     font-size: 28px;
   }
   .stats span:not(.tiny-flame) {
-    font-size: 9px;
+    font-size: 0.875rem;
   }
   .stats .stats-mission {
     grid-column: 1/-1;
@@ -869,7 +886,7 @@ footer > a:last-child {
     justify-content: center;
   }
   .stats-mission p {
-    font-size: 11px;
+    font-size: 0.875rem;
   }
   .stats-mission br {
     display: none;
@@ -920,7 +937,7 @@ footer > a:last-child {
   }
   .role-card p,
   .role-card li {
-    font-size: 13px;
+    font-size: 1rem;
   }
   .resource-card {
     padding: 25px;
@@ -937,7 +954,7 @@ footer > a:last-child {
     margin-bottom: 17px;
   }
   dl > div {
-    font-size: 12px;
+    font-size: 1rem;
   }
   .closing {
     padding: 40px 0;
@@ -958,7 +975,7 @@ footer > a:last-child {
     margin: 0;
   }
   footer .brand {
-    font-size: 13px;
+    font-size: 0.875rem;
   }
 }
 @media (prefers-reduced-motion: reduce) {

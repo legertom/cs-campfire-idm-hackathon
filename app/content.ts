@@ -38,8 +38,8 @@ export const roles = [
       "Choose a useful Clever IDM topic, define what an agent needs to know, and make sure the training gets the details right.",
     tasks: [
       "Pick a focused IDM topic with your team",
-      "Research Guru, the past year of cases, and your own expertise",
-      "Tell Tom & Katie before 5pm on November 6",
+      "Consult Guru, review cases from the past year, and draw on your expertise",
+      "Tell Tom and Katie before 5 p.m. on November 6",
     ],
   },
   {
@@ -51,7 +51,7 @@ export const roles = [
     tasks: [
       "Complete the Golden Path setup",
       "Build and iterate with your teammates",
-      "Keep the project on GitHub; host on Vercel",
+      "Keep the project on GitHub and host it on Vercel",
     ],
   },
   {
