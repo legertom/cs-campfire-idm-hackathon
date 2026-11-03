@@ -605,56 +605,56 @@ h3 {
   color: var(--muted);
   margin: 0;
 }
+.team-grid {
+  grid-template-columns: 1fr;
+  gap: 0;
+  border-top: 1px solid var(--ink);
+}
 .team-card {
-  border: 1px solid var(--line);
-  border-radius: 7px;
-  padding: 24px;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 40px;
+  align-items: start;
+  padding: 32px 0;
 }
-.team-top {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 23px;
+.team-card + .team-card {
+  border-top: 1px solid var(--line);
 }
-.team-index {
-  font-family: Georgia, serif;
-  color: #626f55;
-  font-size: 31px;
-  font-style: italic;
-}
-.team-status {
+.team-heading h3 {
   font-size: 0.875rem;
-  background: #eaf0e2;
-  border-radius: 30px;
-  padding: 4px 10px;
-  color: #596d45;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 .team-topic {
-  font-size: 1rem;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.375rem;
+  line-height: 1.35;
   color: var(--muted);
-  margin: 8px 0 25px;
+  margin: 8px 0 0;
 }
-dl {
+.team-card dl {
+  display: grid;
+  grid-template-columns: 1fr 0.8fr 1.3fr;
+  gap: 24px;
   margin: 0;
-  border-top: 1px solid var(--line);
-  padding-top: 10px;
 }
-dl > div {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  padding-top: 20px;
-  font-size: 1rem;
+.team-card dl > div {
+  min-width: 0;
 }
-dt {
+.team-card dt {
+  font-size: 0.875rem;
+  line-height: 1.5;
   color: var(--muted);
+  margin-bottom: 12px;
 }
-dd {
+.team-card dd {
   margin: 0;
   font-size: 1.375rem;
   line-height: 1.4;
-  font-weight: 650;
-  overflow-wrap: anywhere;
+  font-weight: 500;
+  overflow-wrap: break-word;
 }
 .closing {
   padding: 59px 0;
@@ -736,9 +736,12 @@ footer > a:last-child {
   .hero {
     gap: 25px;
   }
-  .role-grid,
-  .team-grid {
+  .role-grid {
     grid-template-columns: 1fr;
+  }
+  .team-card {
+    grid-template-columns: 1fr;
+    gap: 24px;
   }
   .hero-actions {
     align-items: flex-start;
@@ -948,13 +951,25 @@ footer > a:last-child {
     padding: 18px;
   }
   .team-card {
-    padding: 24px;
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding: 28px 0;
   }
-  .team-top {
-    margin-bottom: 17px;
+  .team-card dl {
+    grid-template-columns: 1fr;
+    gap: 16px;
   }
-  dl > div {
-    font-size: 1rem;
+  .team-card dl > div {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    align-items: baseline;
+    gap: 16px;
+  }
+  .team-card dt {
+    margin: 0;
+  }
+  .team-card dd {
+    font-size: 1.25rem;
   }
   .closing {
     padding: 40px 0;

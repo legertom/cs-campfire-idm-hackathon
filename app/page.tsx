@@ -157,7 +157,7 @@ export default function Home() {
               <h2>Three seats at the fire.</h2>
             </div>
             <p>
-              Different strengths.
+              Different strengths.{" "}
               <br />A shared finish line.
             </p>
           </div>
@@ -187,7 +187,7 @@ export default function Home() {
               <h2>A little prep. A running start.</h2>
             </div>
             <p>
-              Your starting points,
+              Your starting points,{" "}
               <br />
               all in one place.
             </p>
@@ -213,7 +213,9 @@ export default function Home() {
               desktop app or use VS Code with the Claude Code extension.
               <strong>
                 {" "}
-                Claude.ai in the browser is not allowed for the hackathon.
+                Claude.ai in the browser is allowed, but Builders need the Claude
+                desktop app or the Claude Code extension in VS Code to build
+                their apps.
               </strong>
             </p>
             <p className="sme-intro">
@@ -331,20 +333,18 @@ export default function Home() {
               <h2>Meet your fellow builders.</h2>
             </div>
             <p>
-              Your teams are set. Topics are coming.
+              Your teams are set. Topics are coming.{" "}
               <br />
               Find your crew and choose your focus together.
             </p>
           </div>
           <div className="team-grid">
-            {teams.map((team, i) => (
+            {teams.map((team) => (
               <article className="team-card" key={team.name}>
-                <div className="team-top">
-                  <span className="team-index">0{i + 1}</span>
-                  <span className="team-status">Taking shape</span>
+                <div className="team-heading">
+                  <h3>{team.name}</h3>
+                  <p className="team-topic">{team.topic}</p>
                 </div>
-                <h3>{team.name}</h3>
-                <p className="team-topic">{team.topic}</p>
                 <dl>
                   <div>
                     <dt>Subject Matter Expert</dt>
