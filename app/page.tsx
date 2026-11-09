@@ -40,6 +40,7 @@ export default function Home() {
           <a href="#challenge">The challenge</a>
           <a href="#roles">Your role</a>
           <a href="#teams">The teams</a>
+          <a href="#kickoff">Kickoff prompt</a>
         </nav>
         <a className="nav-cta" href="#get-ready">
           Get ready <span aria-hidden="true">↗</span>
@@ -326,6 +327,7 @@ export default function Home() {
             </p>
           </div>
           <article
+            id="kickoff"
             className="sme-brief everyone-prep kickoff-download"
             aria-labelledby="kickoff-title"
           >
