@@ -37,7 +37,7 @@ The Builder already completed the **Golden Path** setup before Campfire. Their M
 |---|---|---|---|---|
 | Team 01 | Account Claiming & Password Resets | Adam | TBD | Joan |
 | Team 02 | Hall Monitor Tools | Nikkole | Katy | Kayla |
-| Team 03 | Microsoft IdP Errors | Keith | Jen | Arraine |
+| Team 03 | Microsoft IDM Sync Errors | Keith | Jen | Arraine |
 
 Use this table to fill in the team's details so they don't have to type them. The topics are each team's current plan, and teams are free to change them. **Always confirm the topic is still their choice before you create the project or build anything**, since the topic shapes the project name, the welcome screen and everything after. If anything in the table looks wrong to them, go with what they tell you.
 

@@ -22,7 +22,7 @@ export const teams = [
   },
   {
     name: "Team 03",
-    topic: "Microsoft IdP Errors",
+    topic: "Microsoft IDM Sync Errors",
     sme: "Keith",
     builder: "Jen",
     designers: ["Arraine"],
