@@ -8,9 +8,9 @@ export const resources = {
 export const teams = [
   {
     name: "Team 01",
-    topic: "Topic TBD",
+    topic: "Account Claiming & Password Resets",
     sme: "Adam",
-    builder: "Jess",
+    builder: "TBD",
     designers: ["Joan"],
   },
   {
@@ -22,10 +22,10 @@ export const teams = [
   },
   {
     name: "Team 03",
-    topic: "Topic TBD",
+    topic: "Microsoft IdP Errors",
     sme: "Keith",
     builder: "Jen",
-    designers: ["Arraine", "Christina"],
+    designers: ["Arraine"],
   },
 ];
 

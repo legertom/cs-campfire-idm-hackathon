@@ -25,7 +25,7 @@ npm run typecheck
 - **Colors, layout, and responsive styles:** `app/globals.css`
 - **Browser title and description:** `app/layout.tsx`
 
-Team 01: Adam (SME), Jess (Builder), and Joan (Learning Designer). Team 02: Nikkole (SME), Katy (Builder), and Kayla (Learning Designer). Team 03: Keith (SME), Jen (Builder), and Arraine and Christina (Learning Designers). Topics are TBD. There is no database, login, or shared editing interface; update the source to publish new information.
+Team 01: Adam (SME), Builder TBD, and Joan (Learning Designer). Team 02: Nikkole (SME), Katy (Builder), and Kayla (Learning Designer). Team 03: Keith (SME), Jen (Builder), and Arraine (Learning Designer). Topics: Account Claiming & Password Resets (Team 01), Hall Monitor Tools (Team 02), and Microsoft IdP Errors (Team 03). There is no database, login, or shared editing interface; update the source to publish new information.
 
 ## Resources
 

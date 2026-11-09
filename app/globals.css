@@ -477,6 +477,9 @@ h3 {
   background: #ebeee2;
   border-color: #cbd4bf;
 }
+.kickoff-download {
+  margin: 24px 0 0;
+}
 .everyone-deadline {
   margin: 0;
   font-size: 16px;

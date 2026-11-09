@@ -325,6 +325,30 @@ export default function Home() {
               Golden Path walks you through it.
             </p>
           </div>
+          <article
+            className="sme-brief everyone-prep kickoff-download"
+            aria-labelledby="kickoff-title"
+          >
+            <div className="sme-brief-heading">
+              <span className="pill">FOR BUILDERS · BUILD DAY</span>
+              <p className="sme-deadline">Tuesday, November 10 · 10 a.m.</p>
+            </div>
+            <h3 id="kickoff-title">Download your Build Kickoff prompt.</h3>
+            <p className="sme-intro">
+              On build day, open Claude Code in your <strong>campfire</strong>{" "}
+              folder and give it this file. Claude will set up a fresh project
+              for your team&apos;s training app, put it online early, and build
+              it with you piece by piece. Keep your Subject Matter Expert and
+              Learning Designer beside you.
+            </p>
+            <a
+              className="button primary"
+              href="campfire-build-kickoff.md"
+              download="campfire-build-kickoff.md"
+            >
+              Download the kickoff prompt <span aria-hidden="true">↓</span>
+            </a>
+          </article>
         </section>
         <section id="teams" className="section teams">
           <div className="section-heading">
@@ -333,9 +357,9 @@ export default function Home() {
               <h2>Meet your fellow builders.</h2>
             </div>
             <p>
-              Your teams are set. Topics are coming.{" "}
+              Your teams are set. Your topics are chosen.{" "}
               <br />
-              Find your crew and choose your focus together.
+              Find your crew and get ready to build.
             </p>
           </div>
           <div className="team-grid">
